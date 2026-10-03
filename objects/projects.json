@@ -1,0 +1,24 @@
+[
+  {
+    "id": "habit-tracker",
+    "title": "Habit Tracker",
+    "description": "Replace this with your project description.",
+    "image": "img/projects/habit-tracker.png",
+    "imageAlt": "Habit Tracker app screenshot",
+    "technologies": ["Flutter", "Dart"],
+    "githubUrl": "",
+    "demoUrl": "",
+    "featured": true
+  },
+  {
+    "id": "portfolio",
+    "title": "Personal Portfolio",
+    "description": "A responsive website showcasing my projects and experience.",
+    "image": "img/projects/portfolio.png",
+    "imageAlt": "Personal portfolio homepage",
+    "technologies": ["HTML", "Sass", "Bootstrap", "JavaScript"],
+    "githubUrl": "",
+    "demoUrl": "",
+    "featured": true
+  }
+]

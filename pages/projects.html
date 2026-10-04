@@ -13,13 +13,41 @@
     <script src="../scripts/projectbuilder.js" defer ></script>
     <title>Document</title>
 </head>
+<div class="modal fade"
+     id="projectModal"
+     tabindex="-1"
+     aria-labelledby="projectModalTitle"
+     aria-hidden="true">
+
+    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <h2 class="modal-title fs-5" id="projectModalTitle"></h2>
+
+                <button type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close">
+                </button>
+            </div>
+
+            <div class="modal-body">
+                <p id="projectModalDescription"></p>
+            </div>
+
+        </div>
+    </div>
+</div>
 <body>
     <nav
         class="navbar navbar-expand-sm border border-dark border-2 sticky-top bg-light d-flex align-items-stretch p-0 ">
         <div class="d-flex align-items-center me-auto bg-cyan-500 border border-dark">
             <div class="navbar-brand d-flex align-item-center  h1 nav-text">
+                <a href="../index.html">
                 <img src="..\img\Logo.png" alt="logo" class="d-inline-block align-text-top" width="40" height="40">
                 Rodrigo
+                </a>
             </div>
         </div>
         <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNav">
@@ -34,7 +62,7 @@
             </div>
     </nav>
     <div class="main-gradient p-3 p-md-5">
-        <div class="bg-white rounded-5 p-3 p-md-4" style="min-height: 750px;" id="project-container">
+        <div class="bg-white rounded-5 p-3 p-md-4" style="min-height: 1080px;" id="project-container">
             
         </div>
     </div>

@@ -2,10 +2,10 @@
   {
     "id": "habit-tracker",
     "title": "Habit Tracker",
-    "description": "Replace this with your project description.",
-    "image": "img/projects/habit-tracker.png",
+    "description": "Habit Tracker is a Flutter mobile application built with Dart that allows users to create, view, and manage daily habits. It displays habits in a structured data table and lets users save multiple named habit lists with associated dates. The app uses SQLite for persistent storage and follows a controller, model, and repository architecture to separate the user interface, application logic, and database operations.",
+    "image": "../img/projects/habit-tracker.png",
     "imageAlt": "Habit Tracker app screenshot",
-    "technologies": ["Flutter", "Dart"],
+    "technologies": ["Flutter", "Dart", "SQLite"],
     "githubUrl": "",
     "demoUrl": "",
     "featured": true
@@ -13,8 +13,8 @@
   {
     "id": "portfolio",
     "title": "Personal Portfolio",
-    "description": "A responsive website showcasing my projects and experience.",
-    "image": "img/projects/portfolio.png",
+    "description": "I built a responsive personal portfolio website using HTML, Sass, Bootstrap, and JavaScript to showcase my projects, skills, and experience. Project cards are generated dynamically from a JSON file, making it easy to add new work without duplicating HTML. The site features custom gradients, technology badges, and interactive modals that display additional project details.",
+    "image": "../img/projects/portfolio.png",
     "imageAlt": "Personal portfolio homepage",
     "technologies": ["HTML", "Sass", "Bootstrap", "JavaScript"],
     "githubUrl": "",

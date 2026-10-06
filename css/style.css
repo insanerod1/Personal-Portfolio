@@ -17454,4 +17454,10 @@ textarea.form-control-lg {
   background-position: center;
 }
 
+@media (max-width: 575.98px) {
+  .skill-text {
+    font-size: 20px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

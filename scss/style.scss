@@ -117,3 +117,9 @@ $gradient-purple: #a84df6;
   background-image: url('../img/bgimg2.jpg');
   background-position: center;
 }
+
+@media (max-width: 575.98px) {
+  .skill-text {
+    font-size: 20px;
+  }
+}

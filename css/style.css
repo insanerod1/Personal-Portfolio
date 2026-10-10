@@ -17441,6 +17441,11 @@ textarea.form-control-lg {
   font-size: 50;
 }
 
+@media (max-width: 768px) {
+  .intro-text {
+    font-size: 10;
+  }
+}
 .skill-text {
   font-family: "Alfa Slab One", serif;
   font-weight: 400;

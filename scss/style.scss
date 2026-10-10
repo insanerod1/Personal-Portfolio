@@ -103,6 +103,13 @@ $gradient-purple: #a84df6;
     font-style: normal;
     font-size: 50;
 }
+@media (max-width: 768px)
+{
+  .intro-text
+  {
+    font-size: 10;
+  }
+}
 
 .skill-text
 {

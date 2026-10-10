@@ -17425,12 +17425,12 @@ textarea.form-control-lg {
 
 @media (min-width: 768px) {
   .title-text {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 }
 @media (min-width: 1200px) {
   .title-text {
-    font-size: 3rem;
+    font-size: 2.75rem;
   }
 }
 .intro-text {
